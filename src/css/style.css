@@ -1,0 +1,176 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fora {
+    height: 440px;
+    width: 240px;
+    background-color: #777;
+    padding: 40px 5px;
+    border-radius: 25px;
+    /* margin-top: 20px; */
+    box-shadow: 5px 5px 8px #222;
+    position: relative;
+}
+
+.borda {
+    height: 100%;
+    width: 100%;
+    background-color: #aaa;
+    padding: 0 10px 20px;
+}
+
+.borda nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.points {
+    display: flex;
+}
+
+.points .circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+
+.circle.black {
+    background-color: #000;
+}
+
+.circle.white {
+    border: 1px solid #000;
+}
+
+.wifi .circle {
+    width: 15px;
+    height: 10px;
+    background-color: #222;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle .barra {
+    height: 10px;
+    width: 8px;
+    background: #aaa;
+    position: absolute;
+    
+}
+
+.barra.barra1 {
+    transform: skew(45deg);
+    right: 75%;
+}
+
+.barra.barra2 {
+    transform: skew(-45deg);
+    left: 75%;
+}
+
+.batery {
+    display: flex;
+    align-items: center;
+}
+
+.batery-body {
+    width: 18px;
+    height: 9px;
+    border: 1px solid #000;
+}
+
+.batery .icon .batery-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.batery .icon .ponta {
+    width: 3px;
+    height: 3px;
+    border: 1px solid #000;
+}
+
+.batery-body .batery-charged {
+    height: 100%;
+    width: 25%;
+    background-color: #000;
+}
+
+.main {
+    height: 90%;
+    background-color: #eee;
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.main .play {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #559;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play .triangle {
+    background-color: transparent;
+    width:0px;
+    height: 0px;
+    border-style: solid;
+    border-color: #559;
+    border-left: 24px solid #559;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: none;
+    margin-left: 5px;
+}
+
+nav {
+    position: relative;
+}
+
+button {
+    width: 90%;
+    padding: 5px;
+    background-color: #334;
+    margin: 5px 5%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: .1s ease-out;
+}
+
+button:hover {
+    background-color: #dbb;
+}
+
+.btn-phone {
+    height: 30px;
+    width: 30px;
+    background-color: #999;
+    border-radius: 50%;
+    /* margin: 5px 44%; */
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 0 3px #555;
+    transition: .2s ease-in-out;
+}
+
+.btn-phone:hover {
+    background-color: #7a7a7a;
+    box-shadow: 0 0 4px #333;
+}
